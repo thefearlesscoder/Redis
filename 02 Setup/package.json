@@ -1,0 +1,16 @@
+{
+  "name": "02-setup",
+  "version": "1.0.0",
+  "description": "seting up redis",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1",
+    "mongoose": "^9.6.2"
+  }
+}
