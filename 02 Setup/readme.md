@@ -1,0 +1,1 @@
+Site banner gets served from redis.

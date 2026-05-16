@@ -1,0 +1,44 @@
+# Ignore build and compiled artifacts
+*.o
+*.lo
+*.la
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.obj
+*.pdb
+*.stackdump
+
+# Redis runtime files and local data
+appendonly.aof
+dump.rdb
+redis.conf
+nodes.conf
+*.pid
+*.log
+*.db
+
+# Build directories and temporary files
+build/
+deps/**/build/
+*.tmp
+*.cache
+
+# Editor and OS files
+*.swp
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+*node_modules
