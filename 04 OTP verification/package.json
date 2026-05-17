@@ -1,7 +1,7 @@
 {
-  "name": "02-setup",
+  "name": "04-otp-verification",
   "version": "1.0.0",
-  "description": "seting up redis",
+  "description": "otp verification",
   "type": "module",
   "scripts": {
     "dev": "node src/index.js"
