@@ -1,0 +1,16 @@
+
+{
+  "name": "04-otp-verification",
+  "version": "1.0.0",
+  "description": "otp verification",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^5.10.1"
+  }
+}
