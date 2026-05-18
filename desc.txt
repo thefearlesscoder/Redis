@@ -1,0 +1,6 @@
+set -> store single variable
+hset -> store multiple variables in a single key / Object
+hgetall -> get all the variables stored in a key
+hget -> get a specific variable stored in a key
+hdel -> delete a specific variable stored in a key
+del -> delete the entire key
