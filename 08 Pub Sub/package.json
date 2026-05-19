@@ -5,7 +5,8 @@
   "description": "otp verification",
   "type": "module",
   "scripts": {
-    "dev": "node src/index.js"
+    "api": "node src/index.js",
+    "subscriber": "node src/subscriber.js"
   },
   "author": "",
   "license": "ISC",

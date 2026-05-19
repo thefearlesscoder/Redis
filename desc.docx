@@ -27,4 +27,24 @@ Publisher ------> Redis         -------> Subscribers(active/ passive)
 
 Pubs send to the channel, subs keep listening the channel
 
+Live Leader board :
 
+4 functions:
+
+incr 
+zinerby 
+zrevrange 
+zrevrank
+
+select, update, locking and transaction mechanism is req for live leaderboard -> all this can be done
+using the incr itself.
+
+end points:
+
+POST-> /post/id/view increment the view count of the post
+
+Post -> /leaderboard/score -> add points to a user score { req.body -> user and the score}
+
+Get -> /leaderboard/ -> get top 10 leaders
+
+Get -> /leaderboard/:userId/rank -> get rank of the user
