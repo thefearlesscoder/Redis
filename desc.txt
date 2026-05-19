@@ -12,3 +12,7 @@ Problems of using Redis Queuse witout any external package
 - if item lost on pop, can;t be recovered
 - etc
 
+Externa Package used eg: BullMQ , to manage the queue operations on redis.
+
+api are the producers.
+workers are the consumers
