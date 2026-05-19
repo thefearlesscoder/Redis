@@ -16,3 +16,15 @@ Externa Package used eg: BullMQ , to manage the queue operations on redis.
 
 api are the producers.
 workers are the consumers
+
+
+Pub Sub -> inbuilt notification system in Redis (not limited to notification only).
+Publisher , Subcriber
+Pub - can be a worker, app, server etc, same are the Sub.
+
+Publisher ------> Redis         -------> Subscribers(active/ passive)
+                    Channels
+
+Pubs send to the channel, subs keep listening the channel
+
+
